@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  width: 90%;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: bree serif;
+}
+
+@media screen and (min-width: 576px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .separator {
+    display: none;
+  }
+}
+
+.latest-match-top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.latest-match-bottom-section {
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .latest-match-bottom-section {
+    text-align: right;
+  }
+}
